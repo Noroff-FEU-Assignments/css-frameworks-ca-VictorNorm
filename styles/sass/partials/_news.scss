@@ -1,0 +1,48 @@
+.news--main {
+  padding: 2rem;
+  background: radial-gradient(circle at center, #ffffff, #e5e5e5);
+  min-height: 100vh;
+
+  h1 {
+      font-style: normal;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .pagination {
+    margin: 2rem 0rem;
+    a {
+      color: getColor(primary-pink) !important;
+      margin: 0;
+      border-color: getColor(primary-pink);
+    }
+    span {
+      border-color: getColor(primary-pink) !important;
+      background: getColor(primary-pink) !important;
+    }
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .col-sm-3 {
+    min-width: 17rem;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+
+    .btn-primary {
+      width: 100%;
+      color: white;
+      background: getColor(primary-pink);
+      border: none;
+      border-right: 2rem solid getColor(text-gray);
+    }
+  }
+
+
+}

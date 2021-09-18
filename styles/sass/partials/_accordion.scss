@@ -1,0 +1,51 @@
+.accordion {
+
+    box-shadow: 0px 5px 10px #ccc;
+    .accordion-item:first-of-type {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+  .accordion-collapse {
+      border-top: 1px solid getColor(primary-pink);
+  }
+
+  img {
+    display: block;
+    max-width: 90%;
+    min-height: none !important;
+  }
+
+  .accordion-button {
+      background-color: white !important;
+      color: getColor(primary-pink) !important;
+    //   border-bottom: 1px solid getColor(primary-pink);
+  }
+
+  .accordion-collapse {
+    background: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
+  }
+
+  .collapsed {
+    border-bottom: none;
+  }
+
+  .accordion__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fa-facebook-f {
+      margin: 0rem 2rem;
+    }
+
+    p {
+      display: inline-block;
+      color: black !important;
+    }
+  }
+
+  .accordion-button::after {
+    display: none;
+  }
+}

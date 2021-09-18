@@ -1,0 +1,22 @@
+$fonts: (
+    primary: 'Lato',
+    brand-font: 'Playfair Display'
+);
+
+$colors: (
+    primary-pink:#e92569,
+    nav-background: #EFEFEF,
+    text-gray: #767676
+);
+
+$blue: #e92569;
+
+@function getFont($font) {
+    @return map-get($fonts, $font)
+};
+
+
+@function getColor($color) {
+    @return map-get($colors, $color)
+};
+

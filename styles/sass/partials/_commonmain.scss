@@ -1,0 +1,15 @@
+main {
+
+    background: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
+
+    h1 {
+        color: getColor(primary-pink);
+        font-family: getFont(brand-font);
+        font-style: normal;
+    }
+
+    p {
+        color: getColor(text-gray);
+    }
+
+}

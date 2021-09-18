@@ -1,0 +1,38 @@
+.contact__main {
+
+    form {
+        background-color: getColor(nav-background);
+        box-shadow: 0px 5px 10px #ccc;
+        padding: 2rem;
+    }
+
+    .form__checkbox__container {
+        display: flex;
+        align-items: center;
+        p {
+            height: 2rem;
+            display: inline-block;
+        }
+        .btn {
+            margin-right: 1rem;
+            height: 2rem;
+            width: 2rem;
+            color: getColor(primary-pink);
+            // background-color: getColor(primary-pink);;
+            border-color: getColor(primary-pink);
+        }
+        .btn:hover {
+            background-color: getColor(primary-pink);
+            opacity: 0.2;
+            border: 1px solid getColor(primary-pink);
+        }
+        #btncheck1:checked {
+            background-color: getColor(primary-pink);
+            color: getColor(primary-pink);
+            .btn-outline-primary {
+                background-color: getColor(primary-pink) !important;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+footer {
+    padding: 0.5rem 2rem !important;
+    height: 50px;
+
+    i,
+    div {
+        color: getColor(text-gray)
+    }
+   
+    p {
+        display: inline;
+    }
+
+    i {
+        font-size: 2rem;
+    }
+
+    i:first-of-type {
+        margin-right: 1rem;
+        @extend i
+    }
+
+}
+
+@media (max-width: 576px) {
+    footer {
+        height: 8rem;
+        padding: 1rem 2rem !important;
+    }
+}

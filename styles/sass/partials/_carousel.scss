@@ -1,0 +1,21 @@
+.carousel-indicators {
+  button {
+    height: 0.75rem !important;
+    opacity: 1 !important;
+    background: white;
+    background-clip: border-box !important;
+    box-shadow: 2px 2px 5px black;
+  }
+
+  .active {
+    background-color: getColor(primary-pink) !important;
+  }
+
+}
+
+
+.d-block {
+    min-height: 35vh;
+    object-fit: cover;
+}
+   
