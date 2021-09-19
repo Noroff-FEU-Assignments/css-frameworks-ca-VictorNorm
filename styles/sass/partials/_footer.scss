@@ -20,6 +20,14 @@ footer {
         @extend i
     }
 
+    .footer__div--flex {
+        display: flex;
+    }
+
+    div {
+        white-space: nowrap;
+    }
+
 }
 
 @media (max-width: 576px) {

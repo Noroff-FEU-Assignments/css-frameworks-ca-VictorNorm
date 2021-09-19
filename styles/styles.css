@@ -173,6 +173,12 @@ footer i, footer i:first-of-type {
 footer i:first-of-type {
   margin-right: 1rem;
 }
+footer .footer__div--flex {
+  display: flex;
+}
+footer div {
+  white-space: nowrap;
+}
 
 @media (max-width: 576px) {
   footer {
@@ -229,9 +235,10 @@ footer i:first-of-type {
   color: #e92569;
   font-family: "Playfair Display";
   font-style: normal;
+  margin-bottom: 2rem;
 }
 .contact__main .container {
-  margin: 0rem;
+  margin: 0rem auto;
   padding: 0;
 }
 .contact__main .container i {

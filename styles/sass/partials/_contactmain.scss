@@ -2,6 +2,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    // justify-content: center;
     padding: 2rem;
     background: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
 
@@ -9,11 +10,13 @@
         color: getColor(primary-pink);
         font-family: getFont(brand-font);
         font-style: normal;
+        margin-bottom: 2rem;
+        // align-self: flex-start;
     }
 
     .container {
        
-        margin: 0rem;
+        margin: 0rem auto;
         padding: 0;
         i {
             font-size: 2rem;
